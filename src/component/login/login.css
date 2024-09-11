@@ -1,0 +1,56 @@
+.login {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(../../assets/img/login-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.registration {
+  background-image: url(../../assets/img/register-bg.png);
+}
+
+.loginInner {
+  margin: 0 auto;
+}
+.login h2 {
+  font-size: 40px;
+  color: rgb(44 0 138);
+  font-weight: 600;
+  border-bottom: 4px solid rgb(31 193 222);
+  display: inline;
+}
+.loginForm {
+  display: block;
+  width: 500px;
+}
+.loginForm label {
+  width: 100%;
+}
+.loginForm input {
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: none;
+  border: 1px solid rgb(183 193 205);
+}
+.loginForm .btn-primary {
+  width: 80%;
+}
+.loginInner a {
+  color: rgb(31 193 222);
+  transition: 0.4s;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.loginInner a:hover {
+  color: rgb(44 0 138);
+}
+.backToHome {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+  font-weight: 500;
+}

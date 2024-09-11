@@ -1,0 +1,14 @@
+.upload {
+  width: 50%;
+  margin-bottom: 100px;
+  margin: 0 auto;
+}
+.audioUpload {
+  border: 2px dashed red;
+  text-align: center;
+  margin: 0 auto;
+}
+.upload .btn-primary {
+  margin: 20px auto;
+  width: 535px;
+}
